@@ -1,0 +1,32 @@
+a {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+header {
+  margin: 15px 0px 0px 0px;
+  margin-right: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  filter: blur(0px);
+  backdrop-filter: blur(15px); /* Apply strong blur to background */
+  -webkit-backdrop-filter: blur(15px); /* Safari support */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.navbarglassy {
+  padding: 5px;
+  margin-top: -3px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  filter: blur(0px);
+  backdrop-filter: blur(15px); /* Apply strong blur to background */
+  -webkit-backdrop-filter: blur(15px); /* Safari support */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1023px) and (max-width: 1260px) {
+  .navbarglassy {
+  }
+}

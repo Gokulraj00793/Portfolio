@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lexend+Peta&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lexend Peta", serif;
+  width: 100%;
+  color: white;
+  top: 0;
+  left: 0;
+}
+
+div .aboutclass {
+  height: max-content;
+  padding: 0 30px 0 80px;
+}
+
+div .hero {
+  background-image: url(".\assets\Untitled design (2).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div .aboutpage,
+.experticepage,
+.certifipage,
+.workpage,
+.contactpage {
+  background-image: url(".\assets\Untitled design (5).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* For small devices (phones) */
+@media (min-width: 600px) and (max-width: 600px) {
+  div .hero {
+    background-image: url(".assets\Untitled design (9).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+/* For medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1025px) {
+  div .hero {
+    background-image: url(".\assets\Untitled design (9).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1026px) and (max-width: 2500px) {
+  div .hero {
+    background-image: url(".\assets\Untitled design (9).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  div .hero {
+    background-image: url(".\assets\Untitled design (9).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
